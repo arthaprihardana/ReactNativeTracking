@@ -1,7 +1,8 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * @author: Artha Prihardana 
+ * @Date: 2018-01-28 23:30:24 
+ * @Last Modified by: Artha Prihardana
+ * @Last Modified time: 2018-01-28 23:30:59
  */
 
 import React, { Component } from 'react';
@@ -19,13 +20,6 @@ import ToastExample from './ToastExample'
 import {
   TrackerService
 } from './TrackerExample'
-
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
 
 export default class App extends Component<{}> {
   constructor(props) {
@@ -86,10 +80,7 @@ export default class App extends Component<{}> {
           </View>
         </View>
         <TouchableOpacity onPress={() => {
-            {/* TrackerService.connect('user2', 'user2@email.com', '123') */}
             Keyboard.dismiss();
-            {/* this.setState({ tracking : false }) */}
-            {/* console.log('this.state.tracking ==> ', this.state.tracking) */}
             if(this.state.tracking) {
               TrackerService.stopLocationService()
               this.setState({ tracking : false })
@@ -102,8 +93,6 @@ export default class App extends Component<{}> {
                 err => { this.setState({ tracking: err }) }
               )
             }
-
-            
           }}>
           <View style={{ width: '100%', backgroundColor: '#2196F3', height: 40, marginTop: 20, alignItems: 'center', justifyContent: 'center' }}>
             <Text style={{ color: '#FFF'}}>

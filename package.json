@@ -2,7 +2,11 @@
   "name": "rntracking",
   "version": "0.0.1",
   "private": true,
-  "author": "Artha Prihardana <arthaprihardana@gmail.com>",
+  "author": {
+    "name": "Artha Prihardana",
+    "email": "arthaprihardana@gmail.com"
+  },
+  "description": "A simple way to implementation Transport Tracker Firebase in React Native",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arthaprihardana/ReactNativeTracking"
