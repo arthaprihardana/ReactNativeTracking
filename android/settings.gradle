@@ -1,0 +1,3 @@
+rootProject.name = 'rntracking'
+
+include ':app'

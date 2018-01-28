@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">rntracking</string>
+    <string name="connecting">Connecting &#8230;</string>
+    <string name="prefs" translatable="false">prefs</string>
+    <string name="not_tracking">Not tracking &#x2718;</string>
+    <string name="auth_failed">Firebase authentication failed</string>
+    <string name="firebase_path" translatable="false">raw-locations/</string>
+    <string name="tracking">Tracking &#x2713;</string>
+    <string name="status">status</string>
+    <string name="missing_inputs">Please enter a transport ID, email and password</string>
+    <string name="gps_required">Gps not enabled.</string>
+
+    <string name="transport_id" translatable="false">transport_id</string>
+    <string name="email" translatable="false">email</string>
+    <string name="password" translatable="false">password</string>
+</resources>
